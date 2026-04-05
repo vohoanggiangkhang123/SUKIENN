@@ -1,0 +1,24 @@
+import { useLocation } from "react-router-dom";
+
+function QRView() {
+  const location = useLocation();
+  const ticket = location.state;
+
+  if (!ticket) return <p>Không có dữ liệu vé</p>;
+
+  return (
+    <div className="qr-view">
+      <h2>{ticket.event}</h2>
+
+      <img
+        src={`https://api.qrserver.com/v1/create-qr-code/?data=${ticket.id}`}
+        alt="QR"
+      />
+
+      <p>{ticket.name}</p>
+      <p>ID: {ticket.id}</p>
+    </div>
+  );
+}
+
+export default QRView;

@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "type": "event",
+    "tag": "SỰ KIỆN",
+    "title": "Cập nhật lịch trình: Tech Summit 2024 chuyển sang khán phòng chính",
+    "body": "Do số lượng đăng ký vượt mong đợi, chúng tôi đã nâng cấp không gian tổ chức lên Grand Hall để đảm bảo trải nghiệm tốt nhất cho mọi thành viên tham dự.",
+    "date": "2024-10-12",
+    "image": "https://images.unsplash.com/photo-1508923567004-3a6b8004f3d1?auto=format&fit=crop&q=80&w=1400"
+  },
+  {
+    "id": 2,
+    "type": "system",
+    "tag": "HỆ THỐNG",
+    "title": "Bảo trì hệ thống thanh toán",
+    "body": "Cổng thanh toán sẽ được bảo trì từ 02:00 đến 04:00 sáng mai. Vui lòng hoàn tất các giao dịch trước đó.",
+    "date": "2024-10-11"
+  },
+  {
+    "id": 3,
+    "type": "event",
+    "tag": "SỰ KIỆN",
+    "title": "Vé điện tử của bạn đã sẵn sàng",
+    "body": "Xác nhận đăng ký cho 'Hội thảo Thiết kế Bền vững' đã hoàn tất. Bạn có thể tải mã QR trong phần Profile.",
+    "date": "2024-10-10"
+  },
+  {
+    "id": 4,
+    "type": "promo",
+    "tag": "ƯU ĐÃI",
+    "title": "Giảm 25% vé Early Bird cho Triển lãm Nghệ thuật Số",
+    "body": "Cơ hội cuối cùng để sở hữu vé VIP với mức giá ưu đãi trước khi sự kiện chính thức diễn ra vào tháng tới.",
+    "date": "2024-10-01"
+  },
+  {
+    "id": 5,
+    "type": "event",
+    "tag": "SỰ KIỆN",
+    "title": "Mở thêm 50 suất tham dự Workshop Nhiếp ảnh đường phố",
+    "body": "Do nhu cầu quá lớn, ban tổ chức quyết định mở thêm một số lượng giới hạn vé bổ sung cho khu vực studio.",
+    "date": "2024-10-08"
+  },
+  {
+    "id": 6,
+    "type": "system",
+    "tag": "HỆ THỐNG",
+    "title": "Cập nhật chính sách hoàn hủy vé 2024",
+    "body": "Chúng tôi đã cập nhật các điều khoản mới giúp người dùng linh hoạt hơn trong việc thay đổi thông tin người tham gia.",
+    "date": "2024-10-05"
+  }
+]

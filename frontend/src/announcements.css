@@ -1,0 +1,391 @@
+.ann-container {
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+  background-color: #fafafa;
+  min-height: 100vh;
+}
+
+.ann-header {
+  margin-bottom: 2.5rem;
+}
+
+.ann-kicker {
+  color: #db2777;
+  font-weight: 700;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+}
+
+.ann-title {
+  font-size: 2.75rem;
+  font-weight: 800;
+  color: #1f2937;
+  margin-bottom: 1rem;
+}
+
+.ann-sub {
+  color: #6b7280;
+  font-size: 1.1rem;
+  max-width: 600px;
+}
+
+/* Search Section */
+.ann-search {
+  margin-bottom: 3rem;
+}
+
+.search-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.search-box {
+  position: relative;
+  flex: 1;
+  max-width: 600px;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 0.85rem 1rem 0.85rem 3rem;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  background: white;
+  font-size: 0.95rem;
+  outline: none;
+  transition: all 0.2s;
+}
+
+.search-box input:focus {
+  border-color: #7c3aed;
+  box-shadow: 0 0 0 4px rgba(124, 58, 237, 0.1);
+}
+
+.search-icon {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #9ca3af;
+}
+
+.pill-group {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.pill {
+  padding: 0.6rem 1.5rem;
+  background: #f3f4f6;
+  color: #4b5563;
+  font-weight: 600;
+  border-radius: 999px;
+  font-size: 0.9rem;
+}
+
+.pill.active {
+  background: #7c3aed;
+  color: white;
+}
+
+/* Main Grid */
+.ann-grid {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: 2.5rem;
+}
+
+/* Featured Card */
+.featured-card {
+  background: white;
+  border-radius: 24px;
+  overflow: hidden;
+  display: flex;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+  margin-bottom: 2rem;
+  border: 1px solid #f3f4f6;
+}
+
+.featured-img-wrapper {
+  flex: 1;
+  max-width: 450px;
+}
+
+.featured-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.featured-content {
+  flex: 1.2;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.35rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  width: fit-content;
+}
+
+.tag-event {
+  background: #dbeafe;
+  color: #2563eb;
+}
+
+.featured-date {
+  color: #9ca3af;
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+}
+
+.featured-content h2 {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: #111827;
+  line-height: 1.3;
+  margin-bottom: 1.25rem;
+}
+
+.featured-content p {
+  color: #4b5563;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.view-detail {
+  color: #7c3aed;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+}
+
+.view-detail .arrow {
+  transition: transform 0.2s;
+}
+
+.view-detail:hover .arrow {
+  transform: translateX(4px);
+}
+
+/* Two-column grid for mini cards */
+.ann-two-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.info-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 20px;
+  border: 1px solid #f3f4f6;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.info-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.icon-maintenance {
+  color: #db2777;
+  background: #fce7f3;
+}
+
+.icon-ticket {
+  color: #2563eb;
+  background: #dbeafe;
+}
+
+.info-time {
+  font-size: 0.8rem;
+  color: #9ca3af;
+  margin-bottom: 0.5rem;
+  display: block;
+  text-align: right;
+}
+
+.info-content h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.info-content p {
+  font-size: 0.9rem;
+  color: #6b7280;
+  line-height: 1.5;
+}
+
+/* List items */
+.ann-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.list-item {
+  background: white;
+  padding: 1.25rem 1.5rem;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  border-left: 4px solid transparent;
+  transition: all 0.2s;
+  cursor: pointer;
+  border: 1px solid #f3f4f6;
+}
+
+.list-item:hover {
+  background: #fdfbff;
+  border-left-color: #7c3aed;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.02);
+}
+
+.list-date-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 80px;
+}
+
+.list-date-box .day {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #374151;
+}
+
+.list-date-box .month {
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: #6b7280;
+}
+
+.list-info {
+  flex: 1;
+}
+
+.list-info h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.list-info p {
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+
+.list-arrow {
+  color: #9ca3af;
+  font-size: 1.25rem;
+}
+
+.load-more-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.btn-load-more {
+  background: #f3e8ff;
+  color: #7c3aed;
+  padding: 0.75rem 2rem;
+  border-radius: 999px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+/* Sidebar */
+.promo-sidebar-card {
+  background: linear-gradient(135deg, #c4b5fd 0%, #ddd6fe 100%);
+  padding: 2.5rem 1.5rem;
+  border-radius: 24px;
+  position: relative;
+  overflow: hidden;
+}
+
+.promo-badge {
+  background: #7c3aed;
+  color: white;
+  padding: 0.35rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  width: fit-content;
+}
+
+.promo-sidebar-card h3 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 1.3;
+  margin-bottom: 1.5rem;
+  color: #111827;
+}
+
+.promo-sidebar-card p {
+  color: #4b5563;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.promo-code-container {
+  background: #ede9fe;
+  padding: 1.5rem 1rem;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  border: 1px dashed #7c3aed;
+}
+
+.promo-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #7c3aed;
+}
+
+.promo-code {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #111827;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 1024px) {
+  .ann-grid {
+    grid-template-columns: 1fr;
+  }
+  .featured-card {
+    flex-direction: column;
+  }
+  .featured-img-wrapper {
+    max-width: 100%;
+    height: 250px;
+  }
+}
